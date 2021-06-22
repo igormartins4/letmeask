@@ -4,7 +4,7 @@ import googleIconImg from '../assets/images/google-icon.svg';
 
 export function Home() {
     return (
-        <div>
+        <div id="page-auth">
             <aside>
                 <img src={ilustrationImg} alt="Ilustração simnbolizando perguntas e respostas" />
                 <strong>Crie salas de Q&amp;A ao vivo</strong>
