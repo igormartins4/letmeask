@@ -1,4 +1,4 @@
-import ilustrationImg from '../assets/images/illustration.svg';
+import illustrationImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
 import googleIconImg from '../assets/images/google-icon.svg';
 
@@ -10,7 +10,7 @@ export function Home() {
     return (
         <div id="page-auth">
             <aside>
-                <img src={ilustrationImg} alt="Ilustração simnbolizando perguntas e respostas" />
+                <img src={illustrationImg} alt="Ilustração simbolizando perguntas e respostas" />
                 <strong>Crie salas de Q&amp;A ao vivo</strong>
                 <p>Tire as dúvidas da sua audiência em tempo real</p>
             </aside>
