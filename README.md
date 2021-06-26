@@ -1,46 +1,112 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="letmeask" title="letmeask" src="./src/assets/images/logo.svg" width="220px" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">Aplicação desenvolvida durante a <strong>Next Level Week 6</strong>, com propósito de estudo.</p>
 
-## Available Scripts
+<p align="center">
+  <a href="https://github.com/igormartins4/letmeask/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/igormartins4/letmeask" alt="Contributors"> 
+  </a>
 
-In the project directory, you can run:
+  <a href="https://github.com/igormartins4/letmeask/stargazers">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/igormartins4/letmeask">
+  </a>
 
-### `yarn start`
+  <a href="https://github.com/igormartins4/letmeask/network">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/igormartins4/letmeask">
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/igormartins4/letmeask">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <a href="https://github.com/igormartins4/clone-vercel-homepage/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/igormartins4/letmeask" alt="GitHub license" >
+  </a>
+</p>
 
-### `yarn test`
+<hr>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Autor
 
-### `yarn build`
+| [<img src="https://avatars.githubusercontent.com/u/23300792?s=460&u=48142b8d548e9c7d1e69a3593b614e48a5513ad0&v=4" width="100px;"><br><sub>@igormartins4</sub>](https://github.com/igormartins4) |
+| :---: |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="center">
+  <img alt="Screen letmeask" src="./.github/screen.jpg" width="100%">
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tecnologias
 
-### `yarn eject`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- HTML
+- Sass
+- JavaScript
+- Typescript
+- React
+- Firebase
+- Imagens SVG
+  
+## Acessar o projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Siga os passos abaixo para rodar-lo localmente em sua máquina.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+(Confira se tem instalado na sua máquina o [Node](https://nodejs.org/en/) e o [Yarn](https://yarnpkg.com/))
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Abra o terminal na pasta desejada para clonar o repositório e execute o comando:
 
-## Learn More
+```bash
+git clone https://github.com/igormartins4/letmeask.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Depois de concluído, execute os seguintes comandos para iniciar o server e será aberto no seu navegador uma aba com o projeto já funcionando:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+cd letmeask
+```
+
+Para instalar as dependências:
+
+```bash
+yarn
+```
+
+Rodando o projeto:
+
+```bash
+yarn start
+```
+
+Observação: É necessário ter uma conta no Firebase e gerar credenciais para rodar o app por inteiro. Para isso, crie um arquivo _.env.local_ na raiz do projeto e coloque sua credenciais, após pegar-las no Firebase.
+
+## Projeto
+
+O _letmeask_ é uma aplicação para gerenciar melhor lives e reuniões de perguntas ou respostas, as Q&A. Por lá, o administrador pode organizar dúvidas por salas e marca-lás como respondidas ou até destacar-las.
+
+## Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/KOhD1Coq7K5uQCNKRFlMhO/Letmeask-(Copy)). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+## Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+## Funcionalidades Extras
+
+Ainda em construção...
+
+<hr>
+
+<h3 align="center" >Bora fazer aquele networking maroto?</h3>
+<p align="center">
+    <a href="https://www.linkedin.com/in/igormartins44/">LinkedIn</a> |
+    <a href="https://www.instagram.com/titan.css">Instagram</a> |
+    <a href="https://www.behance.net/titanstudio44">Behance</a>
+</p>
+
+<br />
+<p align="center">
+    Desenvolvido com 💙 por Igor Martins
+</p>
